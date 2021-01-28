@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: spartan, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+.flex{
+    display: flex;
+}
+.titulo{
+    padding: 20px 50px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+.jcontent-center{
+    justify-content: center;
+}
+.textalign-center{
+    text-align: center;
+}
+.alignitems-center{
+    align-items: center;
+}
+p{
+    line-height: 1.4em;
+    padding-top: 10%;
+}
+.miniCard{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    /*padding: ;*/
+}
+.darkmagenta{
+    color: hsl(300, 43%, 22%);
+}
+.card{
+    width: 100%;
+    border-radius: 10px;
+    background-color:  hsl(300, 43%, 22%);
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 30px 30px 10px 30px;
+}
+.card img{
+    border-radius: 50%;
+     width: 65%;
+     height: 65%;
+}
+/*
+.opinion{
+    font-size: 
+}*/
+.color-softpink{
+    color: hsl(333, 80%, 67%);
+}
+
+/*
+@media screen and (min-width: 376px) and
+*/
